@@ -115,9 +115,9 @@ const InvoiceGenerator = () => {
       doc.setFont(undefined, "normal");
       doc.setFontSize(9);
       doc.text([
-        "Covai Tech Park, No-102, Tower-1,"
-        "1st Floor, 4th South Cross Street,"
-        "Kovai Thiru Nagar, Nehru Nagar East,"
+        "Covai Tech Park, No-102, Tower-1",
+        "1st Floor, 4th South Cross Street",
+        "Kovai Thiru Nagar, Nehru Nagar East",
         "Coimbatore-641014, TAMILNADU, INDIA",
         "Email: senthil.sellerfly@gmail.com",
         "Mobile: 6381780309",
