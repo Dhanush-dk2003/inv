@@ -210,7 +210,7 @@ const InvoiceGenerator = () => {
         doc.setFontSize(10);
         doc.setFont(undefined, "bold");
         doc.text(`Taxable`, 150, finalY);
-        doc.text(`IGST`, 150, finalY + 5);
+        doc.text(`GST`, 150, finalY + 5);
         doc.text(`Total`, 150, finalY + 10);
         doc.setFont(undefined, "normal");
         doc.text(`INR ${totalTaxable.toFixed(2)}`, 165, finalY);
